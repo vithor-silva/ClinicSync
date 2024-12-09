@@ -1,4 +1,4 @@
-namespace ClinicSync.Models
+namespace ClinicSync.Models.ViewModels
 {
     public class ErrorViewModel
     {

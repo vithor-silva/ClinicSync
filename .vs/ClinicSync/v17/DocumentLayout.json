@@ -1,12 +1,156 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\dev\\ClinicSync\\",
-  "Documents": [],
+  "WorkspaceRootPath": "C:\\Users\\dayvid.pinto\\Desktop\\ClinicSync\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2DC661B2-9294-48A4-8136-1AA4412758CF}|ClinicSync.csproj|c:\\users\\dayvid.pinto\\desktop\\clinicsync\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{2DC661B2-9294-48A4-8136-1AA4412758CF}|ClinicSync.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DC661B2-9294-48A4-8136-1AA4412758CF}|ClinicSync.csproj|c:\\users\\dayvid.pinto\\desktop\\clinicsync\\data\\clinicsynccontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DC661B2-9294-48A4-8136-1AA4412758CF}|ClinicSync.csproj|solutionrelative:data\\clinicsynccontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DC661B2-9294-48A4-8136-1AA4412758CF}|ClinicSync.csproj|c:\\users\\dayvid.pinto\\desktop\\clinicsync\\controllers\\consultationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DC661B2-9294-48A4-8136-1AA4412758CF}|ClinicSync.csproj|solutionrelative:controllers\\consultationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DC661B2-9294-48A4-8136-1AA4412758CF}|ClinicSync.csproj|c:\\users\\dayvid.pinto\\desktop\\clinicsync\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DC661B2-9294-48A4-8136-1AA4412758CF}|ClinicSync.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DC661B2-9294-48A4-8136-1AA4412758CF}|ClinicSync.csproj|c:\\users\\dayvid.pinto\\desktop\\clinicsync\\services\\consultationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DC661B2-9294-48A4-8136-1AA4412758CF}|ClinicSync.csproj|solutionrelative:services\\consultationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DC661B2-9294-48A4-8136-1AA4412758CF}|ClinicSync.csproj|c:\\users\\dayvid.pinto\\desktop\\clinicsync\\models\\viewmodels\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DC661B2-9294-48A4-8136-1AA4412758CF}|ClinicSync.csproj|solutionrelative:models\\viewmodels\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DC661B2-9294-48A4-8136-1AA4412758CF}|ClinicSync.csproj|c:\\users\\dayvid.pinto\\desktop\\clinicsync\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2DC661B2-9294-48A4-8136-1AA4412758CF}|ClinicSync.csproj|solutionrelative:views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DC661B2-9294-48A4-8136-1AA4412758CF}|ClinicSync.csproj|c:\\users\\dayvid.pinto\\desktop\\clinicsync\\models\\consultation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DC661B2-9294-48A4-8136-1AA4412758CF}|ClinicSync.csproj|solutionrelative:models\\consultation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 17,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ConsultationService.cs",
+              "DocumentMoniker": "C:\\Users\\dayvid.pinto\\Desktop\\ClinicSync\\Services\\ConsultationService.cs",
+              "RelativeDocumentMoniker": "Services\\ConsultationService.cs",
+              "ToolTip": "C:\\Users\\dayvid.pinto\\Desktop\\ClinicSync\\Services\\ConsultationService.cs",
+              "RelativeToolTip": "Services\\ConsultationService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T19:21:04.033Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\dayvid.pinto\\Desktop\\ClinicSync\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\dayvid.pinto\\Desktop\\ClinicSync\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T19:04:04.459Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\dayvid.pinto\\Desktop\\ClinicSync\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\dayvid.pinto\\Desktop\\ClinicSync\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-09T19:01:58.791Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "C:\\Users\\dayvid.pinto\\Desktop\\ClinicSync\\Views\\Shared\\Error.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\Error.cshtml",
+              "ToolTip": "C:\\Users\\dayvid.pinto\\Desktop\\ClinicSync\\Views\\Shared\\Error.cshtml",
+              "RelativeToolTip": "Views\\Shared\\Error.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-09T18:57:43.496Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ConsultationController.cs",
+              "DocumentMoniker": "C:\\Users\\dayvid.pinto\\Desktop\\ClinicSync\\Controllers\\ConsultationController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ConsultationController.cs",
+              "ToolTip": "C:\\Users\\dayvid.pinto\\Desktop\\ClinicSync\\Controllers\\ConsultationController.cs",
+              "RelativeToolTip": "Controllers\\ConsultationController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T18:48:43.628Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ClinicSyncContext.cs",
+              "DocumentMoniker": "C:\\Users\\dayvid.pinto\\Desktop\\ClinicSync\\Data\\ClinicSyncContext.cs",
+              "RelativeDocumentMoniker": "Data\\ClinicSyncContext.cs",
+              "ToolTip": "C:\\Users\\dayvid.pinto\\Desktop\\ClinicSync\\Data\\ClinicSyncContext.cs",
+              "RelativeToolTip": "Data\\ClinicSyncContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T18:45:39.643Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Consultation.cs",
+              "DocumentMoniker": "C:\\Users\\dayvid.pinto\\Desktop\\ClinicSync\\Models\\Consultation.cs",
+              "RelativeDocumentMoniker": "Models\\Consultation.cs",
+              "ToolTip": "C:\\Users\\dayvid.pinto\\Desktop\\ClinicSync\\Models\\Consultation.cs",
+              "RelativeToolTip": "Models\\Consultation.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAA9wCYAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T18:34:18.561Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\dayvid.pinto\\Desktop\\ClinicSync\\Models\\ViewModels\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\ViewModels\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\dayvid.pinto\\Desktop\\ClinicSync\\Models\\ViewModels\\ErrorViewModel.cs",
+              "RelativeToolTip": "Models\\ViewModels\\ErrorViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T18:33:05.594Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

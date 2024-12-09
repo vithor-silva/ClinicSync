@@ -1,3 +1,6 @@
+using ClinicSync.Data;
+using Microsoft.EntityFrameworkCore;
+
 namespace ClinicSync
 {
     public class Program
@@ -8,6 +11,21 @@ namespace ClinicSync
 
             // Add services to the container.
             builder.Services.AddControllersWithViews();
+
+            builder.Services.AddDbContext<ClinicSyncContext>(options =>
+            {
+                options.UseMySql(
+                    builder
+                        .Configuration
+                        .GetConnectionString("ClinicSyncContext"),
+                    ServerVersion
+                        .AutoDetect(
+                            builder
+                                .Configuration
+                                .GetConnectionString("ClinicSyncContext")
+                        )
+                );
+            });
 
             var app = builder.Build();
 
