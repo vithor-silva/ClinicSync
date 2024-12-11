@@ -87,5 +87,28 @@ namespace ClinicSync.Controllers
             }
             return View(consultation);
         }
+
+        public async Task<IActionResult> Edit(int id, Consultation consultation)
+        {
+            if (!ModelState.IsValid)
+            {
+                return View();
+            }
+            
+            if (id != consultation.Id)
+            {
+                return RedirectToAction(nameof(Error), new { message = "Id's não condizentes" });
+            }
+
+            try
+            {
+                await _service.UpdateAsync(consultation);
+                return RedirectToAction(nameof(Index));
+            }
+            catch (ApplicationException ex) 
+            {
+                return RedirectToAction(nameof(Error), new {message =  ex.Message});
+            }
+        }
     }
 }

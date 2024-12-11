@@ -18,7 +18,7 @@ namespace ClinicSync.Models
         [Required(ErrorMessage = "O campo {0} é obrigatório")]
         public string Phone { get; set; }
 
-        [Display(Name = "Médico")]
+        [Display(Name = "Doutor(a)")]
         [Required(ErrorMessage = "O campo {0} é obrigatório")]
         public string Doctor { get; set; }
         public string Speciality { get; set; }

@@ -39,5 +39,25 @@ namespace ClinicSync.Services
                 throw new IntegrityException(ex.Message);
             }
         }
+
+        public async Task UpdateAsync(Consultation consultation)
+        {
+            bool hasAny = await _context.Consultations.AnyAsync(c => c.Id == consultation.Id);
+
+            if (!hasAny) 
+            {
+                throw new IntegrityException("ID não encontrado"); 
+            }
+
+            try
+            {
+                _context.Update(consultation);
+                await _context.SaveChangesAsync();
+            }
+            catch (DbUpdateException ex) 
+            {
+                throw new IntegrityException(ex.Message);
+            }
+        }
     }
 }
