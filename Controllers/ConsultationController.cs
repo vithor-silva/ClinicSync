@@ -71,5 +71,21 @@ namespace ClinicSync.Controllers
                 return RedirectToAction(nameof(Error), new { message = ex.Message });
             }
         }
+
+        //Exibe tela de Detalhes da consulta
+        public async Task<IActionResult> Details(int? id)
+        {
+            if (id is null)
+            {
+                return RedirectToAction(nameof(Error), new { message = "Não foi fornecido nenhum Id" });
+            }
+
+            Consultation consultation = await _service.FindByIdAsync(id.Value);
+            if (consultation is null)
+            {
+                return RedirectToAction(nameof(Error), new { message = "Não foi encontrado nenhum id" });
+            }
+            return View(consultation);
+        }
     }
 }
