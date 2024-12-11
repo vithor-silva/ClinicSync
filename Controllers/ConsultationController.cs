@@ -1,6 +1,8 @@
 ﻿using ClinicSync.Models;
 using ClinicSync.Services;
+using ClinicSync.Services.Exceptions;
 using Microsoft.AspNetCore.Mvc;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace ClinicSync.Controllers
 {
@@ -39,9 +41,35 @@ namespace ClinicSync.Controllers
         }
 
         //Exibe tela para deletar consulta
-        public ActionResult Delete() 
+        public async Task<ActionResult> Delete(int? id) 
         {
-            return View();
+            if (id is null) 
+            {
+                return RedirectToAction(nameof(Error), new {message = "Não foi fornecido nenhum Id" });
+            }
+
+            Consultation consultation = await _service.FindByIdAsync(id.Value);
+            if (consultation is null)
+            {
+                return RedirectToAction(nameof(Error), new { message = "Não foi encontrado nenhum id" });
+            }
+            return View(consultation);
+        }
+
+        //Ação de deletar uma consulta
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Delete(int id)
+        {
+            try
+            {
+                await _service.RemoveAsync(id);
+                return RedirectToAction(nameof(Index));
+            }
+            catch (IntegrityException ex)
+            {
+                return RedirectToAction(nameof(Error), new { message = ex.Message });
+            }
         }
     }
 }
