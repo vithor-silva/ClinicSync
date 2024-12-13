@@ -1,0 +1,59 @@
+﻿@model ClinicSync.Models.Consultation
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1 class="text-center text-primary my-4">Agendar Consulta</h1>
+
+<div class="card shadow-sm mx-auto" style="max-width: 500px;">
+    <div class="card-body">
+        <h4 class="card-title text-center text-secondary">Preencha os dados abaixo</h4>
+        <hr />
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>
+
+            <div class="mb-3">
+                <label asp-for="Name" class="form-label fw-bold"></label>
+                <input asp-for="Name" class="form-control border-primary" placeholder="Digite seu nome completo" />
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+
+            <div class="mb-3">
+                <label asp-for="Email" class="form-label fw-bold"></label>
+                <input asp-for="Email" class="form-control border-primary" placeholder="Digite seu email" />
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+
+            <div class="mb-3">
+                <label asp-for="Phone" class="form-label fw-bold"></label>
+                <input asp-for="Phone" class="form-control border-primary" placeholder="Digite seu telefone" />
+                <span asp-validation-for="Phone" class="text-danger"></span>
+            </div>
+
+            <div class="mb-3">
+                <label asp-for="Doctor" class="form-label fw-bold"></label>
+                <input asp-for="Doctor" class="form-control border-primary" placeholder="Nome do médico" />
+                <span asp-validation-for="Doctor" class="text-danger"></span>
+            </div>
+
+            <div class="mb-3">
+                <label asp-for="Speciality" class="form-label fw-bold"></label>
+                <input asp-for="Speciality" class="form-control border-primary" placeholder="Especialidade" />
+                <span asp-validation-for="Speciality" class="text-danger"></span>
+            </div>
+
+            <div class="d-grid">
+                <button type="submit" class="btn btn-primary fw-bold">Agendar</button>
+            </div>
+        </form>
+    </div>
+</div>
+
+<div class="text-center mt-4">
+    <a asp-action="Index" class="btn btn-outline-secondary">Voltar para a Lista</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
