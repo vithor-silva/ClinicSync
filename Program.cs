@@ -1,4 +1,5 @@
 using ClinicSync.Data;
+using ClinicSync.Services;
 using Microsoft.EntityFrameworkCore;
 
 namespace ClinicSync
@@ -11,6 +12,9 @@ namespace ClinicSync
 
             // Add services to the container.
             builder.Services.AddControllersWithViews();
+
+            // Add consultation service to project
+            builder.Services.AddScoped<ConsultationService>();
 
             builder.Services.AddDbContext<ClinicSyncContext>(options =>
             {
